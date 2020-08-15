@@ -68,8 +68,8 @@ function draw() {
   
   
   if (gameState===PLAY){
-    if(keyDown("space")) {
-    trex.velocityY = -10;
+    if(keyDown("space")&&trex.y>=161) {
+    trex.velocityY = -13;
   }
     
    
